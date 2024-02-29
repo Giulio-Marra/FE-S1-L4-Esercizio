@@ -4,6 +4,7 @@ body{
     background-size: auto;
     padding: 4%;
     font-family: "Poppins", sans-serif;
+    font-size: 1em;
     
 }
 
@@ -92,6 +93,12 @@ span{
     color: purple;
     font-weight: bold;
 }
+b{
+    box-sizing: border-box;
+    background-color: #e3dfe1;
+    border-radius: 15%;
+    border: 0.1em solid;
+}
 
 /* TABELLE */
 table {
@@ -148,8 +155,31 @@ iframe{
    font-size: 1.6em;
    font-weight: bold;
 }
-
-
+.Contenuti{
+    background-color: #e3dfe1;
+    padding: 8%;
+}
+.Contenuti a{
+    display: block;
+}
+.Date{
+   padding-left: 8em; 
+   padding-top: 2em;
+}
+footer{
+    text-align: center;
+    background: linear-gradient(202deg, #005566, #323837);
+    color:white
+}
+footer div{
+    padding: 2em;
+}
+footer h3{
+    padding-bottom: 1.5em;
+}
+#Email{
+    color: #df0cff;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
