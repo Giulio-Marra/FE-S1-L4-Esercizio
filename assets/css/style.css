@@ -2,7 +2,6 @@
 body{
     background-image: url(../img/sfondo.png);
     background-size: auto;
-    background-attachment: fixed;
     padding: 4%;
     font-family: "Poppins", sans-serif;
     
@@ -12,6 +11,7 @@ body{
 /* HEADER */
 header{
     font-size: 1.1em;
+    box-shadow: 4px 4px rgb(177, 176, 176);
 }
 header div{
     text-align: center;
@@ -42,8 +42,9 @@ header a{
 }
 /* MAIN */
 main {
-   background-color: aliceblue; 
+   background-color: white;
    margin-top: 4%;
+   box-shadow: 4px 4px rgb(185, 184, 184);
 }
 main div{
     padding: 6%;
@@ -86,16 +87,20 @@ main div div{
 
 /* TABELLE */
 table {
-    border-collapse:collapse
+    border-bottom: #3969c8;
+    border-bottom: 2px;
     }
     thead{
         background-color: #3969c8;
         color: white;
     }
     td, th {
-    border:1px solid #ddd;
+    border:1px solid #ffffff;
     padding:1em;
     }
+.tableGrey{
+    background-color: #f4f4f4;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
