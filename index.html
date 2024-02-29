@@ -7,12 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
   <body>
@@ -22,15 +26,25 @@
           <img src="assets/img/logo.svg" alt="logo" />
           <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
           <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ARTICOLI</a></li>
-            <li><a href="">LAVORA CON NOI</a></li>
+            <li>
+              <i class="fa-solid fa-arrow-right"></i><a href="">HOME</a
+              ><i class="fa-solid fa-arrow-left"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-arrow-right"></i><a href="">ARTICOLI</a
+              ><i class="fa-solid fa-arrow-left"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-arrow-right"></i
+              ><a href="">LAVORA CON NOI</a
+              ><i class="fa-solid fa-arrow-left"></i>
+            </li>
           </ul>
         </div>
       </div>
     </header>
     <main>
-      <div class="main.Div">
+      <div class="mainDiv">
         <div>
           <h1 class="titleMain">Come creare un template per i post</h1>
           <h2 class="Space">
@@ -38,7 +52,8 @@
           </h2>
           <p class="Space">
             La prima cosa da fare è suddividere in blocchi logici la pagina,
-            identificando le parti comuni da applicare a tutte le pagine
+            identificando le <span>parti comuni</span> da applicare a tutte le
+            pagine
           </p>
           <p class="Space">Le varie aree saranno quindi suddivise in:</p>
           <ul class="ulClass">
@@ -48,8 +63,8 @@
           </ul>
           <p class="Space">
             Formattazione veloce. Il testo dell articolo dovrà essere formattato
-            per identificare tutte le parti da selezionare con i CSS. Perciò i
-            passi saranno
+            per identificare tutte le parti da
+            <span>selezionare con i CSS.</span> Perciò i passi saranno
           </p>
           <ol class="OlClass">
             <li>
@@ -103,6 +118,33 @@
               </tr>
             </tbody>
           </table>
+          <p class="Space">
+            Un test di validazione potrà essere fatto tramite il
+            <a href="">tool online</a> dedicato allo scopo .Una volta
+            ottimizzato il tutto,avremmo raggiunto il nostro obbiettivo ed
+            essere stati dei veri developers come loro;
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/aBSZVeBRvDY?si=4i1R-T1U5lozzF6X"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="formtext Space">
+            <h1>NOVITA'</h1>
+            <p>
+              Vuoi rimanere aggiornato su altre novità del blog?Iscriviti alla
+              nostra newsletter:
+            </p>
+            <div class="Space custominput">
+              <input id="input" type="email" placeholder="Inserisci l'email" />
+              <button>Iscriviti!</button>
+            </div>
+          </div>
+          <h1 id="correlateArt">ARTICOLI CORRELATI</h1>
         </div>
       </div>
     </main>

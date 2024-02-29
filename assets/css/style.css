@@ -11,7 +11,7 @@ body{
 /* HEADER */
 header{
     font-size: 1.1em;
-    box-shadow: 4px 4px rgb(177, 176, 176);
+    box-shadow: 2px 3px 12px -2px #000000;
 }
 header div{
     text-align: center;
@@ -44,7 +44,7 @@ header a{
 main {
    background-color: white;
    margin-top: 4%;
-   box-shadow: 4px 4px rgb(185, 184, 184);
+   box-shadow: 0px 7px 16px 2px rgba(0,0,0,0.67);
 }
 main div{
     padding: 6%;
@@ -84,23 +84,72 @@ main div div{
     text-align: center;
     font-weight: bold;
 }
+.Space a{
+    color: rgb(63, 137, 206);
+    font-weight: bold;
+}
+span{
+    color: purple;
+    font-weight: bold;
+}
 
 /* TABELLE */
 table {
-    border-bottom: #3969c8;
-    border-bottom: 2px;
-    }
-    thead{
+    border-bottom: 2px solid #3969c8;
+    border-collapse: unset;
+}
+thead{
         background-color: #3969c8;
         color: white;
-    }
-    td, th {
-    border:1px solid #ffffff;
+}
+td, th {
     padding:1em;
-    }
+}
 .tableGrey{
     background-color: #f4f4f4;
 }
+iframe{
+    height: 200px;
+    width: 100%;
+    border-radius: 30px;
+}
+.formtext{
+    background-color: #e3dfe1;
+    
+}
+.formtext h1{
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 10%;
+    text-align: center;
+}
+.formtext p{
+    text-align: center;
+}
+.formtext input{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 60%;
+    height: 23px;
+    border: none;
+}
+.formtext button{
+    background-color: #3969c8;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 25%;
+}
+.custominput{
+    width: 100%;
+}
+#correlateArt{
+   text-align: center; 
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
+
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
